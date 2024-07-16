@@ -71,7 +71,7 @@
     height: 100px;
 }
 .third{
-    background-color:olivedrab;
+    /* background-color:olivedrab; */
 }
 .third-first-half{
     /* width: 100%; */
@@ -159,14 +159,14 @@
     display: flex;
     width: 100%;
     margin-bottom: 10px;
-    background-color: red;
+    /* background-color: red; */
 }
 .fourth-part-image{
     width: 15%;
 }
 .grain-head{
     font-size: 28px;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 30%;
     display: flex;
     text-align: center;
@@ -175,7 +175,7 @@
 }
 .grain-para,.vege-para{
     font-size: 40px;
-    background-color: violet;
+    /* background-color: violet; */
     width: 25%;
     display: flex;
     align-items: center;
@@ -183,7 +183,7 @@
 }
 .vege-para{
     font-size: 40px;
-    background-color: violet;
+    /* background-color: violet; */
     width: 20%;
     display: flex;
     align-items: center;
@@ -191,7 +191,7 @@
 }
 .vege-head{
     font-size: 28px;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 35%;
     text-align: center;
     display: flex;
@@ -213,7 +213,7 @@
 }
 .meat-head{
     font-size: 28px;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 35%;
     text-align: center;
     display: flex;
@@ -222,7 +222,7 @@
 }
 .meat-para,.milk-para{
     font-size: 40px;
-    background-color: violet;
+    /* background-color: violet; */
     width: 20%;
     display: flex;
     align-items: center;
@@ -230,7 +230,7 @@
 }
 .milk-head{
     font-size: 28px;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 40%;
     text-align: center;
     display: flex;
@@ -265,6 +265,6 @@
     border-radius: 50%;
 }
 .fivth-part-content{
-    background-color: violet;
+    /* background-color: violet; */
     width: 80%;
 }
