@@ -4,12 +4,12 @@
 }
 .full-container{
     display: flex;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
 }
 .first-half-container{
     width: 50%;
     /* height: 100vh; */
-    /* background-color: red; */
+    background-color: red;
 }
 .first{
     padding: 5px 20px;
@@ -62,13 +62,13 @@
 .second-image{
     margin: 10px 0px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* background-color: red; */
- 
 }
-.full-image{
-    height: 100px;
+.full-image-2,.full-image-3,.full-image-1{
+    /* height: 100%; */
+    height: 150px; 
+    width: 25%;
 }
 .third{
     /* background-color:olivedrab; */
@@ -77,12 +77,12 @@
     /* width: 100%; */
     display: flex;
     justify-content: center;
-    padding: 40px 0px;
+    padding: 20px 0px;
     /* background-color: orange; */
 }
 .third-first-part{
-    width: 50%;
-    height: 10%;
+    width: 40%;     
+    height: 100%;
     /* background-color: red; */
 }
 .head-3rd{
@@ -96,22 +96,18 @@
 }
 .third-content{
     display: flex;
+    /* background-color: green; */
     justify-content: flex-end;
 }
 .third-first-2ndpart{
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    width: 50%;
     justify-content: space-evenly;
     /* background-color: black; */
 }
 .third-image{
-    height: 100px;
-    /* width: 25%; */
-}
-.third-image-juicecan{
-    width: 25%;
-    height: 100px;
+    height: 100%;
+    width: 20%;
 }
 .third-2nd-half,.third-3rd-half{
     display: flex;
@@ -179,7 +175,7 @@
     width: 25%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .vege-para{
     font-size: 40px;
@@ -267,4 +263,100 @@
 .fivth-part-content{
     /* background-color: violet; */
     width: 80%;
+}
+
+@media screen and (max-width:1000px){
+    .full-container{
+        flex-direction: column;
+    }
+    .first-half-container{
+        width: 100%;
+    }
+    .second-half-container{
+        width: 100%;
+    }
+    .fivth-part-content{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .injection,.stroke{
+        height: 90%;
+    }
+    .milk-head,.meat-head,.vege-head,.grain-head{
+        font-size: 25px;
+    }
+    .milk-head{
+        width: 195px;
+    }
+    .vege-para,.meat-para,.milk-para,.grain-para{
+        justify-content: center;
+        /* background-color: violet; */
+    }
+    .fourth-part-image-4{
+        width: 15%;
+    }
+    .third-2nd-half-heading{
+        font-size: 25px;
+    }
+    .third-2nd-half-para,.third-3rd-half-para{
+        font-size: 35px;
+    }
+    .third-content-container{
+        width: 40%;
+    }
+    .third-image-container-1{
+        width: 60%;
+    }
+    .third-first-2ndpart{
+        width: 70%; 
+    }
+    .third-image{
+        height: 100%;
+        width: 24%;
+    }
+    .third-first-part{
+        width: 35%;     
+        height: 100%;
+    }
+    .second-head{
+        width: 500px;
+        font-size: 25px;
+    }
+    .stroke,.cancer,.injection{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .first-half-container{
+        width: 150%;
+    }
+    .second-half-container{
+        width: 150%;
+        background-color: yellow;
+    }
+    .full-image-2,.full-image-3,.full-image-1{
+        height: 200px; 
+        width: 25%;
+    }
+    .second-para,.first-para{
+        font-size: 20px;
+    }
+    .first-head{
+        font-size: 25px;
+    }
+    .second-head{
+        width: 500px;
+        font-size: 25px;
+    }
+    .third-first-part{
+        width: 50%;     
+        height: 100%;
+    }
+    .third-image{
+        height: 100%;
+        width: 20%;
+    }
 }
